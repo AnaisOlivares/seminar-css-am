@@ -1,0 +1,43 @@
+/*seter mi css*/
+body {
+  box-sizing: border-box;
+  color: #303030;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*clases reutilizable*/
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*clases específicas*/
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+  margin: 4px;
+}
+
+.logo-header {
+  width: 200px;
+}
+header{
+  position: relative;
+}
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  /*googlear como centro objetos verticalmente, para*/
+  transform: translateY(-50%);
+}
+
+.box-header { /*para que no agarre otros etiqutas*/
+  display: inline-block;
+}
